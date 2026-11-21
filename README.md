@@ -25,16 +25,6 @@ Then open `http://localhost:3000`. Use `npm run build` to produce the deployable
 - Tailwind CSS
 - Static export hosted with Sites
 
-### Start User Insights
-
-```bash
-cd user-insights
-npm install
-npm run dev
-```
-
-Use the local URL printed by Vite.
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
