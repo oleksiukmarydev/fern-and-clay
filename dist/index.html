@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Fern & Clay is a fictional neighbourhood plant shop and working greenhouse in Stoke Newington, London." />
+    <meta name="theme-color" content="#18382d" />
+    <title>Fern & Clay | Stoke Newington plant shop</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Fern & Clay, home">
+        <span class="brand-leaf" aria-hidden="true"></span>
+        <span>Fern <i>&amp;</i> Clay</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#plants">Plants</a>
+        <a href="#care">Plant care</a>
+        <a href="#workshops">Workshops</a>
+        <a href="#visit">Visit</a>
+      </nav>
+      <a class="header-link" id="header-hours" href="#visit">Today · 10am–6pm</a>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <img src="assets/greenhouse-hero.jpg" alt="Leafy houseplants on worn timber benches inside a misted old greenhouse" fetchpriority="high" />
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="eyebrow">Plant shop &amp; working greenhouse · Stoke Newington</p>
+          <h1 id="hero-title">Plants grown with patience, chosen for London homes.</h1>
+          <p class="hero-intro">Houseplants, honest care advice and small weekend workshops, all under the old glasshouse roof.</p>
+          <div class="hero-actions">
+            <a class="button button-light" href="#plants">See what’s in the greenhouse</a>
+            <a class="text-link text-link-light" href="#visit">Plan your visit</a>
+          </div>
+        </div>
+        <aside class="today-card" aria-label="Today's opening information">
+          <span class="open-mark" aria-hidden="true"></span>
+          <p><strong id="today-status">Open today</strong><br /><span id="today-hours">10am–6pm</span></p>
+          <span>18 Fernbank Mews, N16</span>
+        </aside>
+      </section>
+
+      <section class="welcome section-grid" aria-labelledby="welcome-title">
+        <p class="section-kicker">The glasshouse</p>
+        <div class="welcome-copy">
+          <h2 id="welcome-title">A neighbourhood greenhouse for plants that settle in well.</h2>
+          <p>We grow and acclimatise our stock in the same cool, changeable conditions found in many London homes. Come in with a photo of your room and we’ll help you choose a plant that suits its light, warmth and your weekly routine.</p>
+        </div>
+        <dl class="quick-facts">
+          <div><dt>Fresh stock</dt><dd>Unpacked every Thursday</dd></div>
+          <div><dt>Care desk</dt><dd>Free, every day we’re open</dd></div>
+          <div><dt>Local delivery</dt><dd>N16, N1 and E5</dd></div>
+        </dl>
+      </section>
+
+      <section class="plants section-pad" id="plants" aria-labelledby="plants-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">In the greenhouse now</p>
+            <h2 id="plants-title">Plants available this week</h2>
+          </div>
+          <p>Stock changes as plants grow and sell. Call before travelling if you have one in mind.</p>
+        </div>
+        <div class="stock-layout">
+          <figure class="stock-photo">
+            <img src="assets/plant-bench.jpg" alt="Ferns, pothos, rubber plants and other leafy plants on a greenhouse bench" loading="lazy" />
+            <figcaption>Thursday’s bench, freshly watered.</figcaption>
+          </figure>
+          <div class="stock-list">
+            <article class="stock-item">
+              <div><h3>Maidenhair fern</h3><p>Soft, indirect light · Keep evenly moist</p></div>
+              <p class="stock-meta"><span>12cm pot</span><strong>£14</strong></p>
+            </article>
+            <article class="stock-item">
+              <div><h3>Satin pothos</h3><p>Low to bright indirect light · Easy-going</p></div>
+              <p class="stock-meta"><span>15cm pot</span><strong>£18</strong></p>
+            </article>
+            <article class="stock-item">
+              <div><h3>Rubber plant ‘Burgundy’</h3><p>Bright indirect light · Water when dry</p></div>
+              <p class="stock-meta"><span>21cm pot</span><strong>£32</strong></p>
+            </article>
+            <article class="stock-item">
+              <div><h3>Calathea orbifolia</h3><p>Filtered light · Likes steady humidity</p></div>
+              <p class="stock-meta"><span>17cm pot</span><strong>£26</strong></p>
+            </article>
+          </div>
+        </div>
+        <p class="stock-note">Each plant comes with a handwritten care card. Nursery pots are included; terracotta cover pots start at £8.</p>
+      </section>
+
+      <section class="care section-pad" id="care" aria-labelledby="care-title">
+        <div class="care-intro">
+          <p class="section-kicker">Practical plant care</p>
+          <h2 id="care-title">Bring us the plant you’re worried about.</h2>
+          <p>Drop in with the plant, a leaf cutting or a few clear photos. We’ll check for pests, watering problems and root stress, then give you a short plan to follow at home.</p>
+          <a class="button button-dark" href="mailto:hello@fernandclay.example?subject=Plant%20care%20question">Send a plant photo</a>
+        </div>
+        <div class="care-list" aria-label="Plant care services">
+          <article><span>01</span><div><h3>Quick care check</h3><p>Ten minutes at the care desk. Free, no booking needed.</p></div></article>
+          <article><span>02</span><div><h3>Repotting</h3><p>From £8 plus compost and pot. Leave larger plants with us for collection.</p></div></article>
+          <article><span>03</span><div><h3>Holiday watering</h3><p>Simple self-watering setups from £12; ask at least a week before you go.</p></div></article>
+        </div>
+      </section>
+
+      <section class="workshops" id="workshops" aria-labelledby="workshops-title">
+        <div class="workshop-photo">
+          <img src="assets/potting-workshop.jpg" alt="People repotting leafy plants together at a timber greenhouse table" loading="lazy" />
+        </div>
+        <div class="workshop-copy">
+          <p class="section-kicker">At the potting bench</p>
+          <h2 id="workshops-title">Small workshops, with time to ask questions.</h2>
+          <p>Six places per session. Tools, materials, tea and a plant to take home are included.</p>
+          <div class="session-list">
+            <article>
+              <div><p class="session-date">Sat 28 Nov · 10am</p><h3>Houseplant foundations</h3><p>Light, watering and choosing the right compost.</p></div>
+              <strong>£28</strong>
+            </article>
+            <article>
+              <div><p class="session-date">Sat 5 Dec · 3pm</p><h3>Winter plant care</h3><p>Cold windows, dry radiators and slower watering.</p></div>
+              <strong>£24</strong>
+            </article>
+            <article>
+              <div><p class="session-date">Sat 12 Dec · 10am</p><h3>Propagate &amp; share</h3><p>Take cuttings, root them and pot up two starters.</p></div>
+              <strong>£30</strong>
+            </article>
+          </div>
+          <a class="button button-outline" href="mailto:hello@fernandclay.example?subject=Workshop%20booking">Ask about a place</a>
+        </div>
+      </section>
+
+      <section class="delivery section-pad" aria-labelledby="delivery-title">
+        <div>
+          <p class="section-kicker">Across the neighbourhood</p>
+          <h2 id="delivery-title">Local delivery, handled by our own team.</h2>
+        </div>
+        <div class="delivery-copy">
+          <p>We deliver to N16, N1 and E5 on Tuesdays and Saturdays. Delivery is £6.50, or free when you spend £50. Orders placed by 2pm the day before are eligible for the next round.</p>
+          <p>We carry plants to your door and bring reusable crates back with us. For anything taller than 1.2m, call so we can confirm access first.</p>
+          <a class="text-link" href="mailto:hello@fernandclay.example?subject=Local%20delivery">Arrange local delivery</a>
+        </div>
+      </section>
+
+      <section class="visit" id="visit" aria-labelledby="visit-title">
+        <div class="visit-photo">
+          <img src="assets/shopfront.jpg" alt="Dark green Fern and Clay shopfront with plants visible through misted glass" loading="lazy" />
+        </div>
+        <div class="visit-panel">
+          <p class="section-kicker">Come by the greenhouse</p>
+          <h2 id="visit-title">Visit Fern &amp; Clay</h2>
+          <address>
+            18 Fernbank Mews<br />
+            Stoke Newington<br />
+            London N16 0QH
+          </address>
+          <p class="travel">Seven minutes’ walk from Stoke Newington station. Cycle stands are beside the mews entrance; step-free access is available through the side gate.</p>
+          <div class="visit-details">
+            <div>
+              <h3>Opening hours</h3>
+              <dl class="hours">
+                <div><dt>Monday</dt><dd>Closed</dd></div>
+                <div><dt>Tuesday–Friday</dt><dd>10am–6pm</dd></div>
+                <div><dt>Saturday</dt><dd>9.30am–6pm</dd></div>
+                <div><dt>Sunday</dt><dd>11am–4pm</dd></div>
+              </dl>
+            </div>
+            <div>
+              <h3>Contact</h3>
+              <p><a href="tel:+442079460184">020 7946 0184</a><br /><a href="mailto:hello@fernandclay.example">hello@fernandclay.example</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <a class="brand brand-footer" href="#top"><span class="brand-leaf" aria-hidden="true"></span><span>Fern <i>&amp;</i> Clay</span></a>
+      <p>Plants, pots and practical help in Stoke Newington.</p>
+      <p class="fiction-note">Fern &amp; Clay is a fictional shop created for a portfolio project. The address, contact details, stock and events are illustrative.</p>
+    </footer>
+  </body>
+</html>
